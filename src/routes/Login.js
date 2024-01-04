@@ -41,9 +41,18 @@ const Login = () => {
           <button className="w-3/5 bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 transition-all" type="submit">
             Continue
           </button>
+          <div className="terms w-full">
+            <div className="w-full text-center mt-4 text-black-600">
+              By proceeding, you argee to the
+            </div>
+            <div className="w-full text-center mt-4 text-black-600">
+              <a className="text-blue-600" href="#">Terms and Services</a> and <a className="text-blue-600" href="#">Privacy Policy</a>
+            </div>
+          </div>
+
           {/* Dòng "Have account? Log in." */}
-          <div className="w-full text-center mt-4 text-gray-400">
-            Already have an account? <a href="#">Log in</a>.
+          <div className="w-full text-center mt-4 text-gray-700 login">
+            <p> Already have an account? <a className="text-blue-600" href="#">Log in</a></p>
           </div>
         </form>
       </div>
