@@ -1,0 +1,24 @@
+/* loginStyles.css */
+.signup-right {
+    background-image: url('../assets/images/welcome-to-monday.png');
+}
+
+.signup-left{
+    text-align: center;
+}
+
+.welcome{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #323338;
+    font-weight: 500
+}
+.started{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #323338;
+    font-weight: 400    
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
